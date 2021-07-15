@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #000000;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+}
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+nav {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu ul {
+  display: flex;
+  justify-content: space-between;
+}
+.menu li a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+.menu li a.active {
+  font-weight: 500;
+}
+li {
+  margin-left: 50px;
+  list-style: none;
+}
+hr {
+  margin-top: -11px;
+  margin-left: 15px;
+  background-color: rgba(255, 75, 181, 0.8);
+  border-color: rgba(255, 75, 181, 0.8);
+  height: 6px;
+  width: 30px;
+}
+section.konten {
+  display: flex;
+  width: 100%;
+}
+.konten .kontenpatamu {
+  margin-top: 150px;
+  max-width: 500px;
+}
+.kontenpatamu h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+.kontenpatamu h1 {
+  margin-top: 20px;
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 80px;
+}
+.kontenpatamu p {
+  margin-top: 25px;
+  font-weight: 400;
+  font-size: 22px;
+  width: 495px;
+  letter-spacing: -1%;
+  line-height: 33px;
+}
+
+.button {
+  background-color: rgba(255, 75, 181, 0.8);
+  height: 58px;
+  width: 196px;
+  text-align: center;
+  padding: 16px 42px;
+  color: #fff;
+  margin-top: 35px;
+  font-size: 22px;
+  border-radius: 10px;
+}
+.konten .bonus img {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.kontenkaduo img {
+  position: absolute;
+  right: 10;
+}
